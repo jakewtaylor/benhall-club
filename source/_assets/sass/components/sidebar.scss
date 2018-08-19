@@ -1,0 +1,64 @@
+.sidebar {
+    @apply .absolute .pin-y .pin-l .w-full .max-w-xs .bgg-d-indigo .shadow-lg;
+
+    .header {
+        @apply .p-6;
+
+        h1 {
+            @apply .text-white .font-header .font-bold .text-3xl;
+        }
+    }
+
+    .menu {
+        @apply .list-reset .mb-3;
+
+        .menu__item {
+            &.active a {
+                @apply .bg-indigo-darker .text-grey-lighter;
+            }
+
+            a {
+                @apply .block .px-6 .py-4 .text-grey-light .no-underline;
+                transition: all .2s;
+
+                &:hover{
+                    @apply .bg-indigo-darker .text-white;
+                }
+
+                i.fa-fw {
+                    @apply .mr-4 .text-grey;
+                }
+            }
+        }
+    }
+
+    .section {
+        @apply .p-4 .mb-2;
+
+        h5 {
+            @apply .font-header .text-grey-light .text-lg .mb-4;
+        }
+
+        p {
+            @apply .text-grey;
+
+            a {
+                @apply .text-blue .no-underline;
+            }
+        }
+
+        table {
+            @apply .w-full .text-grey;
+
+            tbody tr {
+                td {
+                    @apply .py-1;
+                }
+
+                td:last-of-type {
+                    @apply .text-right;
+                }
+            }
+        }
+    }
+}

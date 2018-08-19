@@ -1,0 +1,24 @@
+.page {
+    @apply .p-4;
+    margin-left: config('maxWidth.xs');
+
+    .card {
+        @apply .w-full .rounded-lg .shadow-lg .bg-white .overflow-hidden;
+
+        .card__splash {
+            @apply .w-full;
+        }
+
+        .card__inner {
+            @apply .p-4;
+
+            .card__title {
+                @apply .font-header .text-black .mb-6 .text-3xl .font-bold;
+            }
+
+            .card__content {
+                @apply .text-black .text-lg;
+            }
+        }
+    }
+}
