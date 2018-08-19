@@ -7,6 +7,10 @@
 
         .card__splash {
             @apply .w-full;
+
+            img {
+                @apply .w-full;
+            }
         }
 
         .card__inner {
