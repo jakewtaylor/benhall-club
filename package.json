@@ -16,7 +16,7 @@
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
         "webpack-watch": "^0.2.0",
-        "yargs": "^4.6.0"
+        "yargs": "^16.0.3"
     },
     "dependencies": {
         "tailwindcss": "^0.6.5"
